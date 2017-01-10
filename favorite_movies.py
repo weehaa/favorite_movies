@@ -2,15 +2,19 @@ import fresh_tomatoes
 import movie
 
 
-''' Here we defining an instances, group them into a list and open a page'''
-# Movie 1
+''' Define an instances, group them into a list and open a page'''
+
+# List for a group of Movie instances
 movies = []
+
+# Movie 1
 title = 'The Intouchables'
 storyline = '''An unlikely friendship develops between a wealthy quadriplegic
 and his caretaker.'''
 image = 'https://upload.wikimedia.org/wikipedia/en/9/93/The_Intouchables.jpg'
 trailer = 'https://www.youtube.com/watch?v=34WIbmXkewU'
 
+# add a 1st instance to the list
 movies.append(movie.Movie(title, storyline, image, trailer))
 
 # Movie 2
@@ -20,6 +24,7 @@ invitation that presents itself.'''
 image = 'https://upload.wikimedia.org/wikipedia/en/7/71/YesMan2008poster.jpg'
 trailer = 'https://www.youtube.com/watch?v=M3ar1tBj_Zk'
 
+# add a 2nd instance to the list
 movies.append(movie.Movie(title, storyline, image, trailer))
 
 # Movie 3
@@ -30,6 +35,7 @@ image = '''https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemption
 MoviePoster.jpg'''
 trailer = 'https://www.youtube.com/watch?v=K_tLp7T6U1c'
 
+# add a 3rd instance to the list
 movies.append(movie.Movie(title, storyline, image, trailer))
 
 # Movie 4
@@ -40,6 +46,7 @@ image = '''https://upload.wikimedia.org/wikipedia/en/b/b4/Some_Like_It_Hot_
 poster.jpg'''
 trailer = 'https://www.youtube.com/watch?v=rI_lUHOCcbc'
 
+# add a 4th instance to the list
 movies.append(movie.Movie(title, storyline, image, trailer))
 
 # Movie 5
@@ -50,6 +57,7 @@ image = '''https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_
 %281994%29_poster.jpg'''
 trailer = 'https://www.youtube.com/watch?v=WSLMN6g_Od4'
 
+# add a 5th instance to the list
 movies.append(movie.Movie(title, storyline, image, trailer))
 
 # Movie 6
@@ -58,8 +66,8 @@ storyline = 'Is it possible to steal the Venus?'
 image = 'https://upload.wikimedia.org/wikipedia/en/8/8a/Howtostealamillion.jpg'
 trailer = 'https://www.youtube.com/watch?v=ri4KsE2lvpw'
 
-# group all the Movie instances together in a list.
+# add a 6th instance to the list - The list is ready
 movies.append(movie.Movie(title, storyline, image, trailer))
 
-# open a page
+# open a page using a open_movies_page method from fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
