@@ -7,4 +7,4 @@ This is a project "Movie Trailer Website", a part of Udacity "Full Stack Web Dev
 3. Run the command below from your command line from a folder in n.1 <pre><code>python favorite_movies.py</code></pre> 
 4. The browser should open up with a favorite movies web page
 
-###Enjoy! :)
+### Enjoy! :)
